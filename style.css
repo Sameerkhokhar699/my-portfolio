@@ -408,55 +408,6 @@ span{
 }
 /* Media Queries For responsiveness */
 /* Tablets (up to 1024px) */
-@media screen and (max-width: 1024px) {
-
-  /* Header */
-  .header {
-    padding: 10px 30px;
-  }
-
-  .logo {
-    font-size: 24px;
-  }
-
-  .navbar a {
-    font-size: 16px;
-    margin: 0 5px;
-    padding: 4px 6px;
-  }
-
-  .contact {
-    padding: 8px 20px;
-    font-size: 15px;
-  }
-
-  /* Sections */
-  .home {
-    padding-top: 120px;
-    padding-left: 5%;
-    padding-right: 5%;
-    flex-direction: column;
-    text-align: center;
-    gap: 2rem;
-  }
-
-  .img-box img {
-    width: 320px;
-  }
-
-  .about-content h1 {
-    font-size: 48px;
-  }
-
-  .skills-container,
-  .projects-container {
-    gap: 1.5rem;
-  }
-
-  .project-box {
-    width: 45%;
-  }
-}
 
 /* Mobile devices (up to 768px) */
 @media screen and (max-width: 768px) {
