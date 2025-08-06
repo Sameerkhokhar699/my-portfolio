@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
    box-sizing: border-box; 
    margin:0;
@@ -407,7 +411,6 @@ span{
     margin-top: 20px;
 }
 /* Media Queries For responsiveness */
-/* Tablets (up to 1024px) */
 
 /* Mobile devices (up to 768px) */
 @media screen and (max-width: 768px) {
